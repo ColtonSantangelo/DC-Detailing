@@ -40,12 +40,11 @@ This repository hosts the official DC Detailing website using GitHub Pages.
 ---
 
 ## ➕ Add-Ons
-- Pet hair removal  
-- Headlight restoration  
-- Engine bay cleaning  
-- Odor removal  
-- Wax upgrade  
-- Seat shampoo only  
+- Pet hair removal - $15  
+- Engine bay cleaning - $20  
+- Odor removal - $10
+- Wax upgrade - $20
+- Seat shampoo only - $15 
 
 ---
 
