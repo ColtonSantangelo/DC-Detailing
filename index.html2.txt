@@ -67,34 +67,27 @@
       margin-top: 40px;
     }
 
-    form {
+    .addons {
       background: white;
       padding: 20px;
       border-radius: 8px;
-      max-width: 400px;
-      margin: auto;
+      max-width: 600px;
+      margin: 30px auto;
       box-shadow: 0 0 8px rgba(0,0,0,0.1);
     }
 
-    input, select, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-    }
-
-    button {
+    a.button {
+      display: inline-block;
       margin-top: 15px;
-      padding: 12px;
-      width: 100%;
+      padding: 12px 20px;
       background-color: #007bff;
       color: white;
-      border: none;
+      text-decoration: none;
       font-size: 16px;
       border-radius: 5px;
-      cursor: pointer;
     }
 
-    button:hover {
+    a.button:hover {
       background-color: #0056b3;
     }
 
@@ -130,7 +123,7 @@
         <li>Dashboard & console wipe</li>
         <li>Windows cleaned (inside & out)</li>
       </ul>
-      <div class="price">$30</div>
+      <div class="price">$35</div>
     </div>
 
     <div class="card">
@@ -143,7 +136,7 @@
         <li>Trunk vacuum</li>
         <li>Quick exterior wax</li>
       </ul>
-      <div class="price">$55</div>
+      <div class="price">$60</div>
     </div>
 
     <div class="card">
@@ -155,27 +148,33 @@
         <li>Pet hair removal</li>
         <li>Bug & tar removal</li>
         <li>Hand wax</li>
+        <li><b>Includes ALL add-ons</b></li>
       </ul>
-      <div class="price">$95</div>
+      <div class="price">$100</div>
     </div>
 
   </div>
 
-  <h2>Book Online</h2>
+  <div class="addons">
+    <h2>Add-Ons</h2>
+    <ul>
+      <li>Pet hair removal</li>
+      <li>Headlight restoration</li>
+      <li>Engine bay cleaning</li>
+      <li>Odor removal</li>
+      <li>Wax upgrade</li>
+      <li>Seat shampoo only</li>
+    </ul>
+    <p><b>Premium Package includes all add-ons at no extra cost.</b></p>
+  </div>
 
-  <form>
-    <input type="text" placeholder="Your Name" required>
-    <input type="tel" placeholder="Phone Number" required>
-    <select required>
-      <option value="">Select Package</option>
-      <option>Basic</option>
-      <option>Standard</option>
-      <option>Premium</option>
-    </select>
-    <input type="date" required>
-    <textarea placeholder="Car type or notes"></textarea>
-    <button type="submit">Request Appointment</button>
-  </form>
+  <div class="contact">
+    <h2>Book Online</h2>
+    <p>Click below to fill out our booking form:</p>
+    <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSeEP9Y1ZrV7xY9Snr-piUfBTe8aq9hRN6c5o8wzE2Ywaen0wQ/viewform?usp=publish-editor" target="_blank">
+      Book Now
+    </a>
+  </div>
 
 </div>
 
