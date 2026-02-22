@@ -55,7 +55,6 @@ Brunswick, Ohio
 
 ## 📞 Contact
 Phone: **330-888-2440**  
-Call or text to book an appointment.
 
 ---
 
