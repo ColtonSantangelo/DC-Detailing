@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DC Detailing - Brunswick Ohio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 36px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .packages {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    .price {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 10px;
+      color: #2e7d32;
+    }
+
+    .contact {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .addons {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 600px;
+      margin: 30px auto;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    a.button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">DC Detailing</div>
+  <p>Professional Car Detailing in Brunswick, Ohio</p>
+  <p>📞 330-888-2440</p>
+</header>
+
+<div class="container">
+
+  <h2>Our Packages</h2>
+
+  <div class="packages">
+
+    <div class="card">
+      <h3>Basic Package</h3>
+      <ul>
+        <li>Exterior hand wash</li>
+        <li>Wheel & tire cleaning</li>
+        <li>Interior vacuum</li>
+        <li>Dashboard & console wipe</li>
+        <li>Windows cleaned (inside & out)</li>
+      </ul>
+      <div class="price">$35</div>
+    </div>
+
+    <div class="card">
+      <h3>Standard Package</h3>
+      <ul>
+        <li>Everything in Basic</li>
+        <li>Tire shine</li>
+        <li>Door jamb cleaning</li>
+        <li>Seat wipe-down</li>
+        <li>Trunk vacuum</li>
+        <li>Quick exterior wax</li>
+      </ul>
+      <div class="price">$60</div>
+    </div>
+
+    <div class="card">
+      <h3>Premium Package</h3>
+      <ul>
+        <li>Everything in Standard</li>
+        <li>Deep seat cleaning</li>
+        <li>Carpet shampoo</li>
+        <li>Pet hair removal</li>
+        <li>Bug & tar removal</li>
+        <li>Hand wax</li>
+        <li><b>Includes ALL add-ons</b></li>
+      </ul>
+      <div class="price">$100</div>
+    </div>
+
+  </div>
+
+  <div class="addons">
+    <h2>Add-Ons</h2>
+    <ul>
+      <li>Pet hair removal</li>
+      <li>Headlight restoration</li>
+      <li>Engine bay cleaning</li>
+      <li>Odor removal</li>
+      <li>Wax upgrade</li>
+      <li>Seat shampoo only</li>
+    </ul>
+    <p><b>Premium Package includes all add-ons at no extra cost.</b></p>
+  </div>
+
+  <div class="contact">
+    <h2>Book Online</h2>
+    <p>Click below to fill out our booking form:</p>
+    <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSeEP9Y1ZrV7xY9Snr-piUfBTe8aq9hRN6c5o8wzE2Ywaen0wQ/viewform?usp=publish-editor" target="_blank">
+      Book Now
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 DC Detailing — Brunswick, Ohio</p>
+</footer>
+
+</body>
+</html>
